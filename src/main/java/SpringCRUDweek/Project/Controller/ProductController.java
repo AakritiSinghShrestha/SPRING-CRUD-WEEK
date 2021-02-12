@@ -1,7 +1,9 @@
-package SpringCRUDweek.Project;
+package SpringCRUDweek.Project.Controller;
 
 import java.util.List;
 
+import SpringCRUDweek.Project.Entity.Product;
+import SpringCRUDweek.Project.Services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,7 +25,7 @@ public class ProductController {
     private ProductService productService;
 
     @GetMapping("/products")
-    public ResponseEntity < List < Product >> getAllProduct() {
+    public ResponseEntity < List <Product>> getAllProduct() {
         return ResponseEntity.ok().body(productService.getAllProduct());
     }
 

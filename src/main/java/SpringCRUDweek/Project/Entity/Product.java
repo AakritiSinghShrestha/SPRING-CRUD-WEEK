@@ -1,4 +1,4 @@
-package SpringCRUDweek.Project;
+package SpringCRUDweek.Project.Entity;
 
 import java.math.BigDecimal;
 import java.util.Date;

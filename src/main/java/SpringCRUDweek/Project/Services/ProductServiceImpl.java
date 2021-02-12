@@ -1,9 +1,12 @@
-package SpringCRUDweek.Project;
+package SpringCRUDweek.Project.Services;
 
 import java.util.List;
 import java.util.Optional;
 
 
+import SpringCRUDweek.Project.Entity.Product;
+import SpringCRUDweek.Project.Repos.ProductRepository;
+import SpringCRUDweek.Project.Exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

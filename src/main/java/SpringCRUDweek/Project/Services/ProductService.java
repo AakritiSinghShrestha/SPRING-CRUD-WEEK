@@ -1,4 +1,6 @@
-package SpringCRUDweek.Project;
+package SpringCRUDweek.Project.Services;
+
+import SpringCRUDweek.Project.Entity.Product;
 
 import java.util.List;
 

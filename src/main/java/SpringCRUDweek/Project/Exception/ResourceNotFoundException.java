@@ -1,4 +1,4 @@
-package SpringCRUDweek.Project;
+package SpringCRUDweek.Project.Exception;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 
